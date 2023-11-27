@@ -10,7 +10,7 @@ public class Log {
     private Date logoutDate;
     private String description;
 
-    public Log() {
+    public Log(Long logId, Long accountId, Date loginDate, java.util.Date logoutDate, String description) {
     }
 
     public Log(Long logId, Long accountId, Date loginDate, Date logoutDate, String description) {
